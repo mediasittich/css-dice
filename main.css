@@ -1,0 +1,51 @@
+* {
+    
+}
+body {
+    background-color: lightcoral;
+}
+main {}
+.canvas {
+    margin: 20px auto; 
+}
+.die {
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    position: relative;
+    margin: 0 auto;
+}
+.eye {
+    background-color: rgba(0, 0, 0, .8);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+._1-of-1 { position: absolute; top: 44px; left: 44px; }
+
+._1-of-2 { position: absolute; top: 19px; left: 19px; }
+._2-of-2 { position: absolute; top: 69px; left: 69px; }
+
+._1-of-3 { position: absolute; top: 19px; left: 19px; }
+._2-of-3 { position: absolute; top: 44px; left: 44px; }
+._3-of-3 { position: absolute; top: 69px; left: 69px; }
+
+._2-of-4 { position: absolute; top: 19px; left: 19px; }
+._1-of-4 { position: absolute; top: 69px; left: 19px; }
+._3-of-4 { position: absolute; top: 19px; left: 69px; }
+._4-of-4 { position: absolute; top: 69px; left: 69px; }
+
+._2-of-5 { position: absolute; top: 19px; left: 19px; }
+._1-of-5 { position: absolute; top: 69px; left: 19px; }
+._3-of-5 { position: absolute; top: 44px; left: 44px; }
+._4-of-5 { position: absolute; top: 19px; left: 69px; }
+._5-of-5 { position: absolute; top: 69px; left: 69px; }
+
+._1-of-6 { position: absolute; top: 19px; left: 19px; }
+._2-of-6 { position: absolute; top: 44px; left: 19px; }
+._3-of-6 { position: absolute; top: 69px; left: 19px; }
+._4-of-6 { position: absolute; top: 19px; left: 69px; }
+._5-of-6 { position: absolute; top: 44px; left: 69px; }
+._6-of-6 { position: absolute; top: 69px; left: 69px; }
